@@ -1,0 +1,1 @@
+function gen_mail_to_link(n,o,i,t){window.setTimeout(function(){var e='<A HREF="mailto';e+=":"+o+"@",e+=i+"?subject="+t+'">'+o+"@"+i+"</A>",console.log(e),$("#"+n)[0].innerHTML=e},100)}
